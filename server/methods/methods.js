@@ -33,6 +33,7 @@ export default function () {
         username,
         password
       });
+
       return id;
     }
   });
