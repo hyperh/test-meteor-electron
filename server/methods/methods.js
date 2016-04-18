@@ -4,7 +4,7 @@ import {Things} from '/lib/collections';
 export default function () {
   Meteor.methods({
     'wipeAndInitialize'() {
-      Things.remove();
+      Things.remove({});
 
       for (let i = 0; i < 10; i++) {
         Things.insert({
