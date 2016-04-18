@@ -5,11 +5,11 @@ const Home = ({things, users}) => (
     Hello World
     <div>
       Things
-      {things.map(thing => <div>{thing._id}</div>)}
+      {things.map(thing => <div>{thing._id} {thing.text}</div>)}
     </div>
     <div>
       Users
-      {users.map(user => <div>{user._id}</div>)}
+      {users.map(user => <div>{user._id} {user.username}</div>)}
     </div>
   </div>
 );
