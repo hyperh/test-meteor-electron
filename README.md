@@ -1,10 +1,7 @@
-# mantra-skeleton
-A skeleton for Mantra.
+# test-meteor-electron
+Client and server code.
 
-# Deployment
+# Running the app
 ```
-npm install -g mupx
-# Update mup.json with appropriate server details
-mupx setup
-mupx deploy
+meteor -p 3000
 ```
